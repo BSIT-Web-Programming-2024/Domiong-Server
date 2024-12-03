@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="draft.css">
+</head>
+<body>
+    <div class="page-1">
+        <div id="home-page"></div>
+        <div class="header-container">
+            <div class="header-container-active">
+                <a href="#home-page">
+                    <p class="header-container-active-text">Home</p>
+                </a>
+            </div>
+            <div class="header-container-option">
+                <a href="#about-page">
+                    <p class="header-container-option-text">About</p>
+                </a>
+                <a href="#Hobbies">
+                    <p class="header-container-option-text">Hobbies</p>
+                </a>
+                <a href="#Contacts">
+                    <p class="header-container-option-text">Contacts</p>
+                </a>
+            </div>
+        </div>
+        <div class="page-1-content-container">
+            <div class="home-content-container">
+                <div class="home-content-container-text">
+                    <div class="title-page-container">
+                        <p class="title-page-text">
+                            Hello,
+                            <br> 
+                            <span class="jerimmy-text">It's Jerimmy</span>
+                        </p>
+                    </div>
+                    <div class="paragraph-container">
+                        <p class="paragraph-container-text">
+                            I'm a Web Developer &#x26; Designer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ex nam ducimus ullam ipsum nulla ipsam fugiat? Eligendi, ex vitae, ducimus nesciunt rem veniam, aperiam ratione possimus illum neque modi.
+                        </p>
+                    </div>
+                    <div class="hire-button-container">
+                        <button class="hire-button">
+                            <p class="hire-text">Hire Me</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-2">
+        <div id="about-page"></div>
+        <div class="page-2-container">
+            <div class="about-me-container">
+                <div class="about-me-name">
+                    <p class="about-me-name-text">Jerimmy Domiong</p>
+                </div>
+                <div class="about-me-myself-container">
+                    <p class="about-me-myself-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa incidunt molestiae eius veniam distinctio deserunt nemo veritatis optio fugiat! Officiis repudiandae iste, atque voluptatem quod exercitationem odit reprehenderit fugiat!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum delectus maiores similique enim accusamus, quasi minus distinctio incidunt libero aliquid porro consequuntur, eligendi et cum eum commodi, vel magnam!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut pariatur assumenda quis commodi. Nihil asperiores commodi eaque.
+                    </p>
+                </div>
+            </div>
+            <div class="myskills-status-container">
+                <div class="myskills-container">
+                    <h1 class="myskills-text">
+                        My Skills
+                    </h1>
+                </div>
+                <div class="myskills-tulog-container">
+                    <h3 class="myskills-tulog-text">
+                        Tulog
+                    </h3>
+                    <div class="tulog-statusbar">
+                        <div class="tulog-statusbar-percent"></div>
+                    </div>
+                </div>
+                <div class="myskills-laro-container">
+                    <h3 class="myskills-laro-text">
+                        Laro
+                    </h3>
+                    <div class="laro-statusbar">
+                        <div class="laro-statusbar-percent"></div>
+                    </div>
+                </div>
+                <div class="myskills-kain-container">
+                    <h3 class="myskills-kain-text">
+                        Kain
+                    </h3>
+                    <div class="kain-statusbar">
+                        <div class="kain-statusbar-percent"></div>
+                    </div>
+                </div>
+                <div class="myskills-webdesign-container">
+                    <h3 class="myskills-webdesign-text">
+                        Web Design
+                    </h3>
+                    <div class="webdesign-statusbar">
+                        <div class="webdesign-statusbar-percent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-3" id="Hobbies">
+        <div class="page-3-container">
+            <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="valorant.jpg" alt="Image #1">
+                    <img class="slide" src="ml.jpg" alt="Image #2">
+                    <img class="slide" src="manga.avif" alt="Image #3">
+                    <img class="slide" src="anime.webp" alt="Image #4">
+                    <img class="slide" src="sleep.jpg" alt="Image #5">
+                    <img class="slide" src="music.jpg" alt="Image #6">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+            <script src="draft.js"></script>
+        </div>
+    </div>
+    <div class="page-4">
+        <div id="Contacts"></div>
+        <div class="form-container">
+            <h1>Contact Me</h1>
+            <input class="name-input" type="text" placeholder="Full Name">
+            <input class="email-input" type="email" placeholder="Email">
+            <input type="tel" placeholder="Contact Number">
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
