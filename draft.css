@@ -1,0 +1,405 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*PAGE 1*/
+.page-1{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-image: url(cat-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*HEADER CONTAINER*/
+.header-container{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: hsl(0, 0%, 25%);
+}
+.header-container a{
+    text-decoration: none;
+}
+/*HEADER CONTAINER ACTIVE*/
+.header-container-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.header-container-active-text{
+    color: white;
+    font-weight: bold;
+    font-size: 1.9rem;
+    transition: font-size .25s, color .25s;
+    padding: 0;
+    margin: 0;
+}
+.header-container-active-text:hover{
+    cursor: pointer;
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 0;
+    color: rgb(196, 196, 196);
+}
+.header-container-active-text:active{
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+/*HEADER CONTAINER OPTION*/
+.header-container-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.header-container-option-text{
+    font-weight: bold;
+    color: white;
+    margin-left: 2em;
+    transition: color .25s, text-shadow .25s;
+}
+.header-container-option-text:hover{
+    color: red;
+    text-shadow: 0px 1px 2px white;
+}
+/*PAGE 1 CONTENT CONTAINER*/
+.page-1-content-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+/*HOME CONTENT CONTAINER*/
+.home-content-container{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+.home-content-container-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+}
+/*TITLE PAGE CONTAINER*/
+.title-page-container{
+    display: flex;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.title-page-text{
+    color: white;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.jerimmy-text{
+    transition: color .5s, font-size .5s;
+}
+.jerimmy-text:hover{
+    color: red;
+    font-size: 2.8rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    cursor: pointer;
+}
+/*PARAGRAPH CONTAINER*/
+.paragraph-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph-container-text{
+    color: white;
+}
+/*BUTTON CONTAINER*/
+.hire-button-container{
+    display: flex;
+    align-items: center;
+}
+.hire-button{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px outset grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: padding-left .5s, padding-right .5s, opacity .5s,color .5s;
+}
+.hire-button:hover{
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.hire-button:active{
+    opacity: 70%;
+}
+.hire-text{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.hire-text:hover{
+    color: white;
+}
+.hire-text:active{
+    color: grey;
+    opacity: 100%;
+}
+/*PAGE 2*/
+.page-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.page-2-container{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.about-me-container{
+    display: block;
+    flex-direction: column;
+    height: 35%;
+    width: 100%;
+    overflow: hidden;
+}
+.about-me-name{
+    display: flex;
+    align-items: center;
+    margin-top: 3.125rem;
+    height: 40%;
+    width: 100%;
+}
+.about-me-name-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+.about-me-myself-container{
+    display: block;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+.about-me-myself-text{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: justify;
+    color: grey;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.myskills-status-container{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+.myskills-status-container h3{
+    margin-bottom: 0px;
+    color: white;
+    margin-top: 0px;
+}
+.myskills-container{
+    height: 10%;
+    width: 100%;
+}
+.myskills-text{
+    color: white;
+    margin: 0px;
+}
+.myskills-tulog-container{
+    height: 20%;
+    width: 100%;
+}
+.tulog-statusbar{
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.tulog-statusbar-percent{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 95%;
+    background-color: grey;
+}
+.myskills-laro-container{
+    height: 20%;
+    width: 100%;
+}
+.laro-statusbar{
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.laro-statusbar-percent{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 80%;
+    background-color: grey;
+}
+.myskills-kain-container{
+    height: 20%;
+    width: 100%;
+}
+.kain-statusbar{
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.kain-statusbar-percent{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 50%;
+    background-color: grey;
+}
+.myskills-webdesign-container{
+    height: 20%;
+    width: 100%;
+}
+.webdesign-statusbar{
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.webdesign-statusbar-percent{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 20%;
+    background-color: grey;
+}
+.page-3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    background-color: black;
+}
+.page-3-container{
+    height: 85%;
+    width: 100%;
+}
+.slider{
+    background-color: none;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.slider img{
+    object-fit: cover;
+    height: 80vh;
+    width: auto;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+@keyframes fade{
+    from{opacity: .5}
+    to{opacity: 1}
+}
+.page-4{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 500px;
+    width: 750px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    box-shadow: 0px 0px 10px white,
+                0px 0px 10px white;
+}
+.form-container input{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px white;
+    background-color: rgb(233, 233, 233);
+    padding: 8px 16px;
+    font-size: 15px;
+}
+.form-container input::placeholder{
+    color: black;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0px 0px 5px white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity .5s;
+}
+.submit-btn:active{
+    opacity: 10%;
+}
