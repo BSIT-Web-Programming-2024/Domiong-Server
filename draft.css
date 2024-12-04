@@ -376,7 +376,7 @@ img.displaySlide{
 }
 .form-container input{
     margin-bottom: 20px;
-    height: 50px;
+    height: 30px;
     width: 400px;
     border: none;
     border-radius: 8px;
@@ -402,4 +402,15 @@ img.displaySlide{
 }
 .submit-btn:active{
     opacity: 10%;
+}
+.text_area{
+    margin-bottom: 20px;
+    height: 100px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px white;
+    background-color: rgb(233, 233, 233);
+    padding: 8px 16px;
+    font-size: 15px;
 }
