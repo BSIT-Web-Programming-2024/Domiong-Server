@@ -124,13 +124,16 @@
     </div>
     <div class="page-4">
         <div id="Contacts"></div>
+        <form action="connect.php" method="post">
         <div class="form-container">
             <h1>Contact Me</h1>
-            <input class="name-input" type="text" placeholder="Full Name">
-            <input class="email-input" type="email" placeholder="Email">
-            <input type="tel" placeholder="Contact Number">
+            <input class="name-input" type="text" placeholder="Full Name" name="fullName">
+            <input class="email-input" type="email" placeholder="Email" name="email">
+            <input type="tel" placeholder="Contact Number" name="contactNumber">
+            <textarea name="message" class="text_area" placeholder="input message"></textarea>
             <button class="submit-btn">Submit</button>
         </div>
+    </form>
     </div>
 </body>
 </html>
